@@ -1,0 +1,108 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #20202D;
+}
+
+.button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #2E2E30;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDDE76), to(#FFBB01));
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  -webkit-box-shadow: 0px 4px 0px #B68500;
+          box-shadow: 0px 4px 0px #B68500;
+  border-radius: 5px 5px 10px 10px;
+}
+
+.hero {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.hero__brand {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__subtitle {
+  margin-bottom: 14px;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFBB01;
+}
+
+.hero__title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.hero__descr {
+  margin-bottom: 38px;
+  max-width: 420px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.hero__button {
+  padding: 24px 42px;
+}
+
+.hero__img {
+  border: 12px solid #ffffff;
+  border-radius: 50%;
+  max-width: 367px;
+  height: 367px;
+}
+/*# sourceMappingURL=style.css.map */
