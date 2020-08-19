@@ -6,6 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #20202D;
+  color: #ffffff;
 }
 
 .button {
@@ -20,6 +21,10 @@ body {
   -webkit-box-shadow: 0px 4px 0px #B68500;
           box-shadow: 0px 4px 0px #B68500;
   border-radius: 5px 5px 10px 10px;
+}
+
+.section, .footer {
+  padding: 80px 0;
 }
 
 .hero {
@@ -92,7 +97,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
 }
 
 .hero__button {
@@ -104,5 +108,215 @@ body {
   border-radius: 50%;
   max-width: 367px;
   height: 367px;
+}
+
+.features {
+  background-color: #000000;
+}
+
+.features__title {
+  margin-bottom: 84px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.features__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.features-item {
+  margin-bottom: 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
+.features-item_second {
+  margin-bottom: 0;
+}
+
+.features-item__title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.features-item__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.features-item__icon {
+  margin-bottom: 22px;
+  max-width: 50px;
+}
+
+.footer__title {
+  margin-bottom: 84px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-form {
+  padding: 48px;
+  border-radius: 5px;
+  max-width: 380px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -5px 5px 0px #FFC41D;
+          box-shadow: -5px 5px 0px #FFC41D;
+}
+
+.footer-form__title {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+.footer-form__input {
+  padding: 18px 50px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  border-radius: 5px;
+  color: #949494;
+  background: #F8F8F8;
+  -webkit-box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+          box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+}
+
+.footer-form__input_name {
+  margin-bottom: 17px;
+  background: url(../img/footer/user.svg) center left 20px no-repeat;
+}
+
+.footer-form__input_tel {
+  margin-bottom: 26px;
+  background: url(../img/footer/phone.svg) center left 20px no-repeat;
+}
+
+.footer-form__button {
+  padding: 25px 52px;
+  width: 100%;
+}
+
+.footer-social {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.footer-social__links {
+  margin-bottom: 70px;
+}
+
+.footer-social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-social__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.footer-social__phone, .footer-social__mail {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.footer-social__mail {
+  padding-left: 47px;
+  margin-bottom: 50px;
+}
+
+.footer-social__media {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.footer-social__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer-social__medialink:not(:last-child) {
+  margin-right: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer-social a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer-social__medialink:hover {
+  text-decoration: underline;
+}
+
+.footer-social__policy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 /*# sourceMappingURL=style.css.map */
