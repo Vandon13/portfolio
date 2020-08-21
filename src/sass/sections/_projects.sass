@@ -7,7 +7,7 @@
 		display: flex
 		align-items: center
 		justify-content: center
-		margin-top: 20px
+		margin-top: 30px
 	&-bullet
 		display: inline-block
 		border: 2px solid $execut
@@ -31,6 +31,19 @@
 	&-terms, &-feedback
 		display: flex
 		align-items: flex-start
+	&-link
+		&__title
+			margin-bottom: 6px
+			@include title(18px, 21px)
+		a
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 150%
+			text-decoration-line: underline
+			color: $text
+			&:hover
+				text-decoration: none
 	&-terms
 		margin-bottom: 55px
 	&-text
