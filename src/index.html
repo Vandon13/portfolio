@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -20,11 +20,11 @@
   <body>
     <header class="hero">
       <div class="container">
-        <div class="hero__brand wow bounceInDown" data-wow-delay="0.2s">
+        <div class="hero__brand">
           <a href="#" class="hero__logo">
             <img src="img/hero/logo.svg" alt="Glo Academy" />
           </a>
-          <div class="hero__social wow bounceInDown" data-wow-delay="0.2s">
+          <div class="hero__social">
             <ul class="hero__list">
               <li class="hero__item">
                 <a href="https://github.com/Vandon13" class="hero__link">
@@ -51,26 +51,30 @@
         <!-- /.hero__brand -->
         <div class="hero-content">
           <div class="hero__text">
-            <span class="hero__subtitle wow fadeInLeftBig" data-wow-delay="0.2s"
+            <span
+              class="hero__subtitle animate__animated animate__fadeInLeftBig"
               >Фрилансер</span
             >
-            <h1 class="hero__title wow fadeInLeftBig" data-wow-delay="0.4s">
+            <h1 class="hero__title animate__animated animate__fadeInLeftBig">
               Амир Нурумбетов
             </h1>
-            <p class="hero__descr wow fadeInLeftBig" data-wow-delay="0.6s">
+            <p
+              class="hero__descr animate__animated animate__fadeInLeftBig animate__delay-1s"
+            >
               Разрабатываю сайты для предпринимателей, а также владельцев малого
               и среднего бизнеса. У меня можно заказать дизайн и верстку
               небольшого сайта или интернет-магазина
             </p>
             <button
-              class="hero__button button wow fadeInLeftBig"
-              data-wow-delay="0.8s"
+              class="hero__button button animate__animated animate__fadeInUp animate__delay-1s"
             >
               Посмотреть портфолио
             </button>
           </div>
           <!-- /.hero__text -->
-          <div class="hero__avatar">
+          <div
+            class="hero__avatar animate__animated animate__zoomIn animate__delay-2s"
+          >
             <img src="img\hero\avatar.png" alt="Vandon" class="hero__img" />
           </div>
           <!-- /.hero__avatar -->
@@ -170,119 +174,19 @@
               <!-- Slides -->
               <div class="swiper-slide project-slide">
                 <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “Велстрой”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/velstroy</a>
-                  </div>
+                  <a
+                    href="https://vandon13.github.io/rocket/"
+                    class="project__link"
+                    target="_blank"
+                    ><img
+                      src="img\projects\spacex.png"
+                      alt="Сайт компании SpaceX"
+                      class="project-slide__img"
+                  /></a>
                 </div>
                 <div class="project-text">
                   <h3 class="project-text__title">
-                    Сайт строительной фирмы “Велстрой”
-                  </h3>
-                  <div class="project-terms">
-                    <img
-                      src="img/projects/icons/time.svg"
-                      alt="Сроки"
-                      class="project-text__icon"
-                    />
-                    <div class="project-terms__descr">
-                      <h4 class="project-terms__title">Сроки</h4>
-                      <p class="project-terms__label">4 рабочих дня</p>
-                    </div>
-                  </div>
-                  <!-- /.projects-terms -->
-                  <div class="project-feedback">
-                    <img
-                      src="img/projects/icons/feedback.svg"
-                      alt="Отзыв"
-                      class="project-text__icon"
-                    />
-                    <div class="project-feedback__descr">
-                      <h4 class="project-feedback__title">Отзыв клиента</h4>
-                      <p class="project-feedback__descr">
-                        Мне понравилось работать с Амиром, потому что он все
-                        время был на связи и предлагал свои решения, когда мы
-                        заходили в тупик с дизайном. Мне нужны были закрывающие
-                        документы для бухгалтерии, и Амир — тот редкий
-                        фрилансер, у которого с документами все в порядке
-                      </p>
-                    </div>
-                  </div>
-                  <!-- /.projects-feedback -->
-                </div>
-                <!-- /.projects-text -->
-              </div>
-              <div class="swiper-slide project-slide">
-                <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “Белкамнефть”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/belkamneft</a>
-                  </div>
-                </div>
-                <div class="project-text">
-                  <h3 class="project-text__title">
-                    Сайт строительной фирмы “Белкамнефть”
-                  </h3>
-                  <div class="project-terms">
-                    <img
-                      src="img/projects/icons/time.svg"
-                      alt="Сроки"
-                      class="project-text__icon"
-                    />
-                    <div class="project-terms__descr">
-                      <h4 class="project-terms__title">Сроки</h4>
-                      <p class="project-terms__label">5 рабочих дней</p>
-                    </div>
-                  </div>
-                  <!-- /.projects-terms -->
-                  <div class="project-feedback">
-                    <img
-                      src="img/projects/icons/feedback.svg"
-                      alt="Отзыв"
-                      class="project-text__icon"
-                    />
-                    <div class="project-feedback__descr">
-                      <h4 class="project-feedback__title">Отзыв клиента</h4>
-                      <p class="project-feedback__descr">
-                        Далеко-далеко за словесными горами, в стране гласных и
-                        согласных живут рыбные тексты. Но рекламных дороге
-                        проектах это, парадигматическая грустный возвращайся
-                        несколько, предупредила домах эта себя коварных которое
-                        повстречался заголовок подпоясал своего они
-                        безорфографичный переписывается осталось свой злых
-                        коварный! Скатился себя наш продолжил?
-                      </p>
-                    </div>
-                  </div>
-                  <!-- /.projects-feedback -->
-                </div>
-                <!-- /.projects-text -->
-              </div>
-              <div class="swiper-slide project-slide">
-                <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “ИнвестСтрой”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/investstroy</a>
-                  </div>
-                </div>
-                <div class="project-text">
-                  <h3 class="project-text__title">
-                    Сайт строительной фирмы “ИнвестСтрой”
+                    Адаптивная верстка сайта компании SpaceX
                   </h3>
                   <div class="project-terms">
                     <img
@@ -305,13 +209,11 @@
                     <div class="project-feedback__descr">
                       <h4 class="project-feedback__title">Отзыв клиента</h4>
                       <p class="project-feedback__descr">
-                        Далеко-далеко за словесными горами, в стране гласных и
-                        согласных живут рыбные тексты. Но рекламных дороге
-                        проектах это, парадигматическая грустный возвращайся
-                        несколько, предупредила домах эта себя коварных которое
-                        повстречался заголовок подпоясал своего они
-                        безорфографичный переписывается осталось свой злых
-                        коварный! Скатился себя наш продолжил?
+                        Нам понравилось работать с Амиром, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Амир — тот редкий
+                        фрилансер, у которого с документами все в порядке
                       </p>
                     </div>
                   </div>
@@ -321,19 +223,19 @@
               </div>
               <div class="swiper-slide project-slide">
                 <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “СтройЮгГрупп”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/stroysouthgroup</a>
-                  </div>
+                  <a
+                    href="https://vandon13.github.io/batman/src/"
+                    class="project__link"
+                    target="_blank"
+                    ><img
+                      src="img\projects\batman.jpg"
+                      alt="Промо-сайт к фильму Бэтмен"
+                      class="project-slide__img"
+                  /></a>
                 </div>
                 <div class="project-text">
                   <h3 class="project-text__title">
-                    Сайт строительной фирмы “СтройЮгГрупп”
+                    Адаптивная верстка промо-сайта Бэтмен
                   </h3>
                   <div class="project-terms">
                     <img
@@ -343,7 +245,7 @@
                     />
                     <div class="project-terms__descr">
                       <h4 class="project-terms__title">Сроки</h4>
-                      <p class="project-terms__label">3 рабочих дня</p>
+                      <p class="project-terms__label">5 рабочих дней</p>
                     </div>
                   </div>
                   <!-- /.projects-terms -->
@@ -356,115 +258,11 @@
                     <div class="project-feedback__descr">
                       <h4 class="project-feedback__title">Отзыв клиента</h4>
                       <p class="project-feedback__descr">
-                        Далеко-далеко за словесными горами, в стране гласных и
-                        согласных живут рыбные тексты. Но рекламных дороге
-                        проектах это, парадигматическая грустный возвращайся
-                        несколько, предупредила домах эта себя коварных которое
-                        повстречался заголовок подпоясал своего они
-                        безорфографичный переписывается осталось свой злых
-                        коварный! Скатился себя наш продолжил?
-                      </p>
-                    </div>
-                  </div>
-                  <!-- /.projects-feedback -->
-                </div>
-                <!-- /.projects-text -->
-              </div>
-              <div class="swiper-slide project-slide">
-                <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “BIGroup”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/bigroup</a>
-                  </div>
-                </div>
-                <div class="project-text">
-                  <h3 class="project-text__title">
-                    Сайт строительной фирмы “BIGroup”
-                  </h3>
-                  <div class="project-terms">
-                    <img
-                      src="img/projects/icons/time.svg"
-                      alt="Сроки"
-                      class="project-text__icon"
-                    />
-                    <div class="project-terms__descr">
-                      <h4 class="project-terms__title">Сроки</h4>
-                      <p class="project-terms__label">8 рабочих дней</p>
-                    </div>
-                  </div>
-                  <!-- /.projects-terms -->
-                  <div class="project-feedback">
-                    <img
-                      src="img/projects/icons/feedback.svg"
-                      alt="Отзыв"
-                      class="project-text__icon"
-                    />
-                    <div class="project-feedback__descr">
-                      <h4 class="project-feedback__title">Отзыв клиента</h4>
-                      <p class="project-feedback__descr">
-                        Далеко-далеко за словесными горами, в стране гласных и
-                        согласных живут рыбные тексты. Но рекламных дороге
-                        проектах это, парадигматическая грустный возвращайся
-                        несколько, предупредила домах эта себя коварных которое
-                        повстречался заголовок подпоясал своего они
-                        безорфографичный переписывается осталось свой злых
-                        коварный! Скатился себя наш продолжил?
-                      </p>
-                    </div>
-                  </div>
-                  <!-- /.projects-feedback -->
-                </div>
-                <!-- /.projects-text -->
-              </div>
-              <div class="swiper-slide project-slide">
-                <div class="project-image">
-                  <img
-                    src="img\projects\project-img.png"
-                    alt="Сайт строительной фирмы “Стройнадзор”"
-                    class="project-slide__img"
-                  />
-                  <div class="project-link">
-                    <h4 class="project-link__title">Ссылка на проект</h4>
-                    <a href="#">www.project.ru/portfolio/stroynadzor</a>
-                  </div>
-                </div>
-                <div class="project-text">
-                  <h3 class="project-text__title">
-                    Сайт строительной фирмы “Стройнадзор”
-                  </h3>
-                  <div class="project-terms">
-                    <img
-                      src="img/projects/icons/time.svg"
-                      alt="Сроки"
-                      class="project-text__icon"
-                    />
-                    <div class="project-terms__descr">
-                      <h4 class="project-terms__title">Сроки</h4>
-                      <p class="project-terms__label">2 рабочих дня</p>
-                    </div>
-                  </div>
-                  <!-- /.projects-terms -->
-                  <div class="project-feedback">
-                    <img
-                      src="img/projects/icons/feedback.svg"
-                      alt="Отзыв"
-                      class="project-text__icon"
-                    />
-                    <div class="project-feedback__descr">
-                      <h4 class="project-feedback__title">Отзыв клиента</h4>
-                      <p class="project-feedback__descr">
-                        Далеко-далеко за словесными горами, в стране гласных и
-                        согласных живут рыбные тексты. Но рекламных дороге
-                        проектах это, парадигматическая грустный возвращайся
-                        несколько, предупредила домах эта себя коварных которое
-                        повстречался заголовок подпоясал своего они
-                        безорфографичный переписывается осталось свой злых
-                        коварный! Скатился себя наш продолжил?
+                        Мне понравилось работать с Амиром, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Амир — тот редкий
+                        фрилансер, у которого с документами все в порядке
                       </p>
                     </div>
                   </div>
@@ -577,7 +375,6 @@
       <!-- /.container -->
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js\wow.min.js"></script>
     <script src="js\main.js"></script>
   </body>
 </html>

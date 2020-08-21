@@ -1,0 +1,59 @@
+.projects
+	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%)
+	&__title
+		margin-bottom: 76px
+		@include title(36px, 42px)
+	&-pagination
+		display: flex
+		align-items: center
+		justify-content: center
+		margin-top: 20px
+	&-bullet
+		display: inline-block
+		border: 2px solid $execut
+		border-radius: 50%
+		width: 10px
+		height: 10px
+		margin-left: 5px
+		margin-right: 5px
+		cursor: pointer
+		&_active
+			background-color: $execut
+.project
+	&-slide
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		&__img
+			max-height: 260px
+			margin-bottom: 33px
+			border-radius: 6px
+	&-terms, &-feedback
+		display: flex
+		align-items: flex-start
+	&-terms
+		margin-bottom: 55px
+	&-text
+		flex-basis: 60%
+		display: flex
+		flex-wrap: wrap
+		&__title
+			margin-bottom: 40px
+			flex-basis: 100%
+			@include title(24px, 28px)
+		&__icon
+			margin-right: 16px
+	&-terms__title, &-feedback__title
+		margin-bottom: 8px
+		@include title(18px, 21px)
+	&-terms__label
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 19px
+	&-feedback__descr
+		max-width: 480px
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 150%

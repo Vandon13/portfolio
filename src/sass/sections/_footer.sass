@@ -1,0 +1,87 @@
+.footer
+	&__title
+		margin-bottom: 84px
+		@include title(36px, 42px)
+	&__wrap
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&-form
+		padding: 48px
+		border-radius: 5px
+		max-width: 380px
+		background: #FFFFFF
+		box-shadow: -5px 5px 0px #FFC41D
+		&__title
+			margin-bottom: 30px
+			font-style: normal
+			font-weight: bold
+			font-size: 18px
+			line-height: 28px
+			color: #000000
+			text-align: center
+		&__input
+			padding: 18px 50px
+			width: 100%
+			font-style: normal
+			font-weight: normal
+			font-size: 14px
+			line-height: 28px
+			border-radius: 5px
+			color: #949494
+			background: #F8F8F8
+			box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25)
+			&_name
+				margin-bottom: 17px
+				background: url(../img/footer/user.svg) center left 20px no-repeat
+			&_tel
+				margin-bottom: 26px
+				background: url(../img/footer/phone.svg) center left 20px no-repeat
+		&__button
+			padding: 25px 52px
+			width: 100%
+	&-social
+		flex-basis: 50%
+		&__links
+			margin-bottom: 70px
+		&__list
+			display: flex
+			align-items: center
+		&__item:not(:last-child)
+			margin-right: 20px
+		&__data
+			display: flex
+			flex-wrap: wrap
+			margin-bottom: 40px
+		&__phone, &__mail
+			flex-basis: 50%
+			margin-bottom: 50px
+		&__mail
+			padding-left: 47px
+		&__media
+			flex-basis: 100%
+		&__title
+			margin-bottom: 15px
+			@include title(24px, 28px)
+		&__medialink:not(:last-child)
+			margin-right: 31px
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 19px
+			color: $text
+		&__phone, &__mail
+		a
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 19px
+			color: $text
+		&__medialink:hover
+			text-decoration: underline
+		&__policy
+			font-style: normal
+			font-weight: normal
+			font-size: 15px
+			line-height: 18px
+			text-decoration-line: underline

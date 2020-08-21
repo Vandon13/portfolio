@@ -1,0 +1,43 @@
+.hero
+	padding-top: 50px
+	padding-bottom: 150px
+	background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%)
+	&__brand
+		margin-bottom: 100px
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__list
+		display: flex
+		align-items: center
+	&__item:not(:last-child)
+		margin-right: 20px
+	&-content
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__subtitle
+		margin-bottom: 14px
+		display: block
+		font-style: normal
+		font-weight: normal
+		font-size: 24px
+		line-height: 28px
+		color: $execut
+	&__title
+		margin-bottom: 20px
+		@include title(50px, 59px)
+	&__descr
+		margin-bottom: 38px
+		max-width: 420px
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 28px
+	&__button
+		padding: 24px 42px
+	&__img
+		border: 12px solid $text
+		border-radius: 50%
+		max-width: 367px
+		height: 367px

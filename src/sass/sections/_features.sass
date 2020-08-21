@@ -1,0 +1,25 @@
+.features
+	background-color: #000000
+	&__title
+		margin-bottom: 84px
+		@include title(36px, 42px)
+	&__wrap
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	&-item
+		margin-bottom: 40px
+		flex: 0 1 30%
+		&_second
+			margin-bottom: 0
+		&__title
+			margin-bottom: 16px
+			@include title(24px, 28px)
+		&__text
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 28px
+		&__icon
+			margin-bottom: 22px
+			max-width: 50px
